@@ -15,12 +15,12 @@ struct Pose {
 
 constexpr Pose POSES[] = {
   // Bredde, højde, løft, hjerte, pause i ms
-  {341, 363,  0, false, 2400}, // Sidder stille
-  {372, 313,  0, false,  450}, // Gør sig klar
-  {322, 371, 48, false,  300}, // Sætter af
-  {331, 355, 96, true,   600}, // Toppen af hoppet
-  {341, 363, 42, false,  300}, // På vej ned
-  {378, 305,  0, false,  450}, // Lander
+  {341, 363,  0, false, 240}, // Sidder stille
+  {372, 313,  0, false,  45}, // Gør sig klar
+  {322, 371, 48, false,  30}, // Sætter af
+  {331, 355, 96, true,   60}, // Toppen af hoppet
+  {341, 363, 42, false,  30}, // På vej ned
+  {378, 305,  0, false,  45}, // Lander
 };
 
 constexpr int POSE_COUNT = sizeof(POSES) / sizeof(POSES[0]);

@@ -4,7 +4,7 @@
 namespace {
 EPaper display;
 
-constexpr char NAMES[][9] = {"Jennie", "Kristine", "Johan"};
+constexpr char NAMES[][9] = {"Jennie", "Kristine", "Johan", "Daniel"};
 constexpr int NAME_COUNT = sizeof(NAMES) / sizeof(NAMES[0]);
 constexpr char TITLE_SUFFIX[] = " er smuk";
 constexpr unsigned long NAME_CHANGE_INTERVAL_MS = 1000;

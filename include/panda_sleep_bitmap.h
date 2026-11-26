@@ -1,4 +1,5 @@
 #pragma once
+#include <Arduino.h>
 
 // Generated deterministically from sleeping_panda.png. Black pixels are 1 bits,
 // packed most-significant bit first for TFT_eSPI::drawBitmap().

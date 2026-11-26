@@ -198,6 +198,15 @@ void showPhonePanda() {
       }
     }
   }
+
+  const int bubbleLeft = x + 5 * width / PANDA_PHONE_WIDTH;
+  const int bubbleTop = y + 23 * height / PANDA_PHONE_HEIGHT;
+  const int bubbleRight = x + 56 * width / PANDA_PHONE_WIDTH;
+  const int bubbleBottom = y + 62 * height / PANDA_PHONE_HEIGHT;
+  const int slashThickness = max(3, min(width, height) * 3 / 100);
+  drawThickLine(bubbleLeft + 3, bubbleBottom - 4,
+                bubbleRight - 3, bubbleTop + 4,
+                slashThickness, TFT_BLACK);
   display.update();
 }
 
